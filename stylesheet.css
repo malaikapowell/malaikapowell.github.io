@@ -1,0 +1,359 @@
+
+@media only screen and (max-width: 1920px){
+    nav.nav>ul>li{
+    margin-top: 2vw;
+    }
+    nav.nav>ul{
+        position: relative;
+        right: 2vw;
+    }
+    main.resume-body{
+        position: absolute;
+        top: 3vw;}
+    div.education>h2{
+        font-size: x-large;
+    }
+    div.education>h3{
+        font-size: medium;
+    }
+    div.education>p{
+        font-size: medium;
+    }
+    div.education{
+        margin-bottom: .5vw;
+    }
+    div.skills>h2{
+        font-size: x-large;
+    }
+    div.skills>ul>li{
+        font-size: medium;
+    }
+    div.skills{
+        margin-bottom: 1vw;
+        height: 3vw;
+    }
+    div.certifications>h2{
+        font-size: x-large;
+    }
+    div.certifications{
+        margin-top: 1vw;
+    }
+    div.certifications>ul>li{
+        font-size: medium;
+    }
+    div.work-history{
+        position: absolute;
+        top: 18vw;
+        margin-top: 1vw;
+    }
+    body.resume{
+        margin-left: 1vw;
+    }
+    div.work-history>h3{
+        font-size: medium;
+    }
+    div.work-history>h2{
+        font-size: x-large;
+    }
+    img.profile-picture{
+        height: 40vw;
+        position: absolute;
+        top: 7vw;
+        right: 8vw;
+        border-radius: 50vw;
+    } 
+    main.about-me>p{
+        position: relative;
+        margin: 8vw;
+        text-align: justify;
+        width: 45vw;
+    }
+    a.email{
+        position: relative;
+        margin: 8vw;
+        top: -5vw;
+    }
+}
+@media only screen and (max-width: 1601px){
+    div.certifications{
+        height: 4vw;
+    }
+    div.work-history{
+        position: relative;
+        top: .25vw;
+    }
+    nav.nav>ul{
+        right: 4vw;
+    }    
+}
+@media only screen and (max-width: 1370px){
+    div.education>h2{
+        font-size: large;
+        margin-top: 2vw;
+    }
+    div.skills>h2{
+        font-size: large;
+    }
+    div.skills{
+        height: 5vw;
+    }
+    div.certifications>h2{
+        font-size: large;
+    }
+    div.certifications{
+        position: relative;
+        height: 6vw;
+    }
+    div.work-history>h2{
+        font-size: large;
+    }
+    div.work-history{
+        position: relative;
+        top: 0vw;
+    }
+    nav.nav>ul>li{
+        margin-top: .5vw;
+        }
+    nav.nav>ul{
+        position: relative;
+        right: 8vw;
+    }
+}
+@media only screen and (max-width: 913px){
+    nav.nav>ul>li{
+        margin-top: -.25vw;
+    }
+    nav.nav>ul{
+        right: 12vw;
+    }
+    main.resume-body{
+        position:relative;
+        top: 6vw;
+    }
+    img.profile-picture{
+        height: 80vw;
+    } 
+    main.about-me>p{
+        top: 1vw;
+    }
+}
+@media only screen and (max-width: 769px){
+    nav.nav>ul>li{
+        margin-top: -2vw;
+    }
+    nav.nav>ul{
+        position: relative;
+        right: 18vw;
+    }
+    div.certifications{
+        height: 8vw;
+    }
+}
+@media only screen and (max-width: 540px){
+    main.resume-body{
+        position: relative;
+        top: 25vw;
+    }
+    div.skills{
+        height: 15vw;
+    }
+    div.certifications{
+        height: 25vw;
+    }
+    nav.nav>ul{
+        float: left;
+        position: relative;
+        top:9vw;
+        right: 84vw;
+    }
+    main.portfolio{
+        position: relative;
+        top: 12vw;
+    }
+    header.resume-header{
+        position: relative;
+        top: 3vw;
+    }
+    nav.nav>ul>li>a:hover{
+        background-color:#D9D0C1;
+        color: #400106;
+    }
+    header.resume-header{
+        position: relative;
+        left: 2vw;
+    }
+    img.profile-picture{
+        top: 15vw;
+        left: 18vw;
+    }
+    main.about-me>p{
+        top: 15vw;
+    }
+    a.email{
+        position: relative;
+        top: 15vw;
+    }
+}
+@media only screen and (max-width: 540px){
+    main.resume-body{
+        position: relative;
+        top: 35vw;
+    }
+    div.skills{
+        height: 30vw;
+    }
+    div.work-history>ul{
+        margin: 7vw
+    }
+}
+    *{
+    margin: 0;
+    padding: 0;
+}
+html{
+    background-color: #D9D0C1;
+    color: #400106;
+}
+body{
+    margin:auto;
+    font-size: 100%;
+}
+h1{
+    font-family: 'Aclonica', sans-serif;
+}
+h2, h3, p, a, li{
+    font-family: 'bellota text', sans-serif;
+}
+.title-page{
+    position: relative;
+    margin: 2vw;
+    top: 15vw;
+    width: fit-content;
+}
+header.title-page>h1{
+    font-size: 6vw;
+}
+header.title-page>h2{
+    font-size: 4vw;
+}
+header.title-page>p{
+    font-size: 1.5vw;
+    font-weight: 600;
+    position: absolute;
+    top: 13vw;
+}
+nav#nav-title-page{
+    position: absolute;
+    top: 22vw;
+}
+nav#nav-title-page>ul>li{
+    list-style-type: none;
+    display: inline;
+    padding-right: 5vw;
+}
+nav#nav-title-page>ul>li>a{
+    color: #400106;
+    font-weight: bolder;
+    font-size: 1.5vw;
+}
+nav#nav-title-page>ul>li>a:hover{
+    text-decoration: double underline;
+}
+#title-page-image{
+    position: absolute;
+    right: 7vw;
+    top: 6vw;
+    height: 15vw;
+}
+.resume-header{
+    margin-left: 1vw;
+}
+.resume-header>a{
+    color: #400106;
+    text-decoration: none;
+    position: relative;
+    top: 1vw;
+}
+nav.nav>ul>li{
+    list-style-type: none;
+    float: left;
+    position: relative;
+    top: -5vw;
+    left: 83vw;
+}
+nav.nav>ul>li>a{
+    display: block;
+    padding: 1vw 1vw 1vw 1vw;
+    color: #400106;
+}
+nav.nav>ul>li>a:hover{
+    background-color: #400106;
+    color: #D9D0C1;
+    text-decoration: none;
+}
+main.resume-body{
+    position: absolute;
+    margin-top: 3vw;
+    margin-left: 1vw;
+}
+.education{
+    margin-bottom: 1vw;
+}
+.education>h2{
+    font-size: large;
+    padding-bottom: .5vw;
+}
+.education>h3,p{
+    font-size: 1.25vw;
+}
+.education>p{
+    padding-bottom: .5vw;
+}
+.skills{
+    height: 5vw;
+    margin-bottom: 1vw;
+}
+.skills>h2{
+    font-size: large;
+    margin-bottom: .5vw;
+}
+.skills>ul>li{
+    list-style-type: none;
+    float: left;
+    display: block;
+    padding-right: 4.75vw;
+    font-size: 1.25vw;
+}
+.certifications{
+    margin-bottom: 1vw;
+}
+.certifications>h2{
+    font-size: large;
+}
+.certifications>ul>li{
+    list-style-type: none;
+    float: left;
+    display: block;
+    position: relative;
+    padding-right: 3vw
+}
+.work-history{
+    position: absolute;
+    top: 28.5vw;
+    margin-top: 1vw;
+}
+.work-history>h2,p{
+    font-size: large;
+}
+.work-history>ul{
+    margin-left: 2vw;
+    margin-bottom: .5vw;
+}
+.hair-paint>a img{
+    position: relative;
+    width: 90%;
+    left: 5%;
+    box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16);
+    border-radius: 8px; will-change: transform;
+    padding-bottom: 5vw;
+}
